@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="cart">
+      <h1>Shopping Cart</h1>
+      <table>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>Product 1</td>
+          <td>
+            <button class="quantity-btn minus-btn">-</button>
+            <input class="quantity-input" type="text" value="1" />
+            <button class="quantity-btn plus-btn">+</button>
+          </td>
+          <td>$10.00</td>
+          <td class="total">$10.00</td>
+          <td>
+            <button class="delete-btn">Delete</button>
+            <button class="like-btn">&#9825;</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Product 2</td>
+          <td>
+            <button class="quantity-btn minus-btn">-</button>
+            <input class="quantity-input" type="text" value="1" />
+            <button class="quantity-btn plus-btn">+</button>
+          </td>
+          <td>$15.00</td>
+          <td class="total">$15.00</td>
+          <td>
+            <button class="delete-btn">Delete</button>
+            <button class="like-btn">&#9825;</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Product 3</td>
+          <td>
+            <button class="quantity-btn minus-btn">-</button>
+            <input class="quantity-input" type="text" value="1" />
+            <button class="quantity-btn plus-btn">+</button>
+          </td>
+          <td>$8.00</td>
+          <td class="total">$8.00</td>
+          <td>
+            <button class="delete-btn">Delete</button>
+            <button class="like-btn">&#9825;</button>
+          </td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <h3>Total: <span id="total">$33.00</span></h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
